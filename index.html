@@ -155,7 +155,7 @@ h1{font-family:'Manrope',sans-serif;font-weight:800;font-size:clamp(26px,3.4vw,4
   opacity:0;animation:floatUp var(--d) linear infinite;animation-delay:var(--dl)}
 @keyframes floatUp{0%{transform:translateY(0);opacity:0}12%{opacity:.9}100%{transform:translateY(-380px);opacity:0}}
 
-.mandala{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:min(250px,32vw);aspect-ratio:1;z-index:7;display:grid;place-items:center}
+.mandala{position:absolute;left:66%;top:50%;transform:translate(-50%,-50%);width:min(250px,32vw);aspect-ratio:1;z-index:7;display:grid;place-items:center}
 .mandala svg{width:100%;height:100%}
 .odot{position:absolute;left:50%;top:50%;width:var(--s);height:var(--s);margin-left:calc(var(--s)/-2);margin-top:calc(var(--s)/-2);
   border-radius:50%;background:var(--c);box-shadow:0 0 10px var(--c);pointer-events:none;animation:orbit var(--t) linear infinite}
@@ -553,7 +553,7 @@ h1{font-family:'Manrope',sans-serif;font-weight:800;font-size:clamp(26px,3.4vw,4
       <div class="ritual"><span class="r-ic"><span data-ic="spark" data-size="14"></span></span><span class="r-name">Clarity of Mind</span><span class="r-time" id="t1">24:32</span></div>
       <div class="ritual"><span class="r-ic"><span data-ic="shield" data-size="14"></span></span><span class="r-name">Energy Protection</span><span class="r-time" id="t2">15:48</span></div>
       <div class="ritual"><span class="r-ic"><span data-ic="star" data-size="14"></span></span><span class="r-name">Manifestation</span><span class="r-time" id="t3">33:12</span></div>
-      <button class="card-link">Create Ritual</button>
+      <button class="card-link"><span data-ic="plus" data-size="12"></span>&nbsp; Create Ritual</button>
     </div>
 
     <div class="card">
@@ -604,7 +604,7 @@ h1{font-family:'Manrope',sans-serif;font-weight:800;font-size:clamp(26px,3.4vw,4
         <div class="chat-ava sm"><span data-ic="eye" data-size="14"></span></div>
         <div class="m-main">
           <div class="m-meta"><span class="m-name">Shamanic AI</span><span class="m-time">10:45</span></div>
-          <div class="bubble">Synchronicities are the whispers of the universe &mdash; meaningful coincidences that surface when your awareness aligns with your soul&rsquo;s frequency. They are the cosmos confirming you are on the right path. To align with your true path:
+          <div class="bubble">Synchronicities are the whispers of the universe, guiding you toward your highest alignment. They surface when your inner frequency resonates with the flow of existence. To align with your true path:
             <ul>
               <li>Listen deeply to your intuition.</li>
               <li>Observe repeating patterns.</li>
@@ -622,7 +622,7 @@ h1{font-family:'Manrope',sans-serif;font-weight:800;font-size:clamp(26px,3.4vw,4
         <button class="ibtn" title="Attach"><span data-ic="attach" data-size="16"></span></button>
         <button class="ibtn" title="Image"><span data-ic="image" data-size="16"></span></button>
         <button class="ibtn" title="Voice"><span data-ic="audio" data-size="16"></span></button>
-        <input id="chatInput" placeholder="Ask anything, Shaman..." autocomplete="off"/>
+        <input id="chatInput" placeholder="Ask anything, Shaman." autocomplete="off"/>
         <button class="btn-send" onclick="sendChat()">SEND <span data-ic="sendArrow" data-size="13"></span></button>
       </div>
     </div>
@@ -710,7 +710,7 @@ h1{font-family:'Manrope',sans-serif;font-weight:800;font-size:clamp(26px,3.4vw,4
       <g style="filter:drop-shadow(0 0 5px #5856D6)"><circle cx="100" cy="90" r="6" fill="#5856D6" opacity=".15"/><circle cx="100" cy="90" r="3" fill="#5856D6"/></g>
       <g style="filter:drop-shadow(0 0 5px #AF52DE)"><circle cx="100" cy="80" r="6" fill="#AF52DE" opacity=".15"/><circle cx="100" cy="80" r="3" fill="#AF52DE"/></g>
     </svg>
-    <div class="energy-row"><span class="core-label">Balance</span><span class="core-value">88%</span></div>
+    <div class="energy-row"><span class="core-label">Balance:</span><span class="core-value">88%</span></div>
     <div class="progress thin" style="--fill:88"><i data-val="88"></i></div>
     <div class="sub-tag"><i></i>HARMONIZATION ACTIVE</div>
   </div>
